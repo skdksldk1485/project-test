@@ -4,7 +4,7 @@ jdk:
 
 branches:
   only:
-    - main # master 브런치에 push될 때 수행
+    - master # master 브런치에 push될 때 수행
 
 # 같은 의존성은 캐싱처리를 할 디렉터리
 cache:
