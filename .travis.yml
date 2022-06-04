@@ -1,22 +1,22 @@
 language: java
 jdk:
-  - openjdk8
+  - openjdk11
 
 branches:
   only:
-    - master
+    - main # master 브런치에 push될 때 수행
 
-before_install:
-  - chmod +x ./gradlew
-
+# 같은 의존성은 캐싱처리를 할 디렉터리
 cache:
   directories:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
+# 프로젝트 내부의 gradlew을 통해 clean & build 수행
 script: "./gradlew clean build"
 
+# CI 실행 완료시 메일로 알람
 notifications:
   email:
     recipients:
-      - skdksldk1485@naver.com
+      - skdksldk1485@naver.com # 여기 바꿔도 됨!
