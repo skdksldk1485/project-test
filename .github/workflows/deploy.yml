@@ -7,7 +7,7 @@ on:
 env:
   NAME: skdksldk1485
   REPO: project-test
-  WORKING-DIRECTORY: ./project-test
+  WORKING-DIRECTORY: .
 
 jobs:
   build:
