@@ -6,7 +6,7 @@ on:
 
 env:
   NAME: skdksldk1485
-  REPO: project-test
+  REPO: project-lion-api
   WORKING-DIRECTORY: .
 
 jobs:
