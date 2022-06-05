@@ -2,7 +2,7 @@ name: project-lion-api
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ master ]
 
 env:
   NAME: skdksldk1485
